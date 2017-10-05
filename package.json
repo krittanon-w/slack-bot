@@ -1,0 +1,15 @@
+{
+  "name": "slack-bot",
+  "version": "1.0.0",
+  "description": "Run code that listens and posts to your Slack team just as a user would.",
+  "main": "bot.js",
+  "repository": "https://github.com/krittanon-w/slack-lazy-bot",
+  "author": "Krittanon.w <krittanon.w@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "slackbots": "1.1.0"
+  }
+}
