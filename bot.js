@@ -2,7 +2,7 @@ var Bot = require('slackbots')
 var shell = require('./shellHelper')
 
 var settings = {
-    token: process.env.BOT_TOKEN || 'xoxb-252284597079-pwKrhQVWAhWUMBPwNT3qqx1B' || 'bot_token',
+    token: process.env.BOT_TOKEN || 'xoxb-252284597079-pwKrhQVWAhWUMBPwNT3qqx1B',
     name: process.env.BOT_NAME || 'BooBoo'
 }
 
